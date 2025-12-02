@@ -5,13 +5,13 @@ from os import environ
 
 API_ID = int(environ.get("API_ID", "29899250"))
 API_HASH = environ.get("API_HASH", "611d045796c79af3e5ddfa3d6fd536a7")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8266995354:AAE-E6M0cpFhz3EqbrLnXbxGBZ49M0-W77I")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8193096843:AAHqcMIJxRjEAhjU8S7NhJcoFBdJfyLOw7s")
 
-OWNER = int(environ.get("OWNER", "8140993079"))
-CREDIT = environ.get("CREDIT", "@@leavingproperty")
+OWNER = int(environ.get("OWNER", "7549194607"))
+CREDIT = environ.get("CREDIT", "@leavingproperty")
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
-TOTAL_USER = os.environ.get('TOTAL_USERS', '8140993079').split(',')
+TOTAL_USER = os.environ.get('TOTAL_USERS', '7549194607').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
 
 AUTH_USER = os.environ.get('AUTH_USERS', '8140993079').split(',')
